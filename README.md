@@ -58,11 +58,13 @@ Sensitivity = 75%
 
 Specificity = 61%
 
-The KNN model demonstrated superior accuracy and specificity, making it more reliable for minimizing false positives and correctly identifying employees who are likely to stay.
+The KNN model demonstrated higher sensitivity, making it more effective at identifying employees who are likely to leave the company.
 
-The Naive Bayes model showed slightly higher sensitivity, meaning it was better at identifying employees who would leave but had a higher rate of false positives.
+Both models performed similarly in terms of specificity (61%), meaning their ability to correctly classify employees who are likely to stay was comparable.
 
-Given the KNN model’s better overall balance in predicting attrition, it was selected as the preferred model for Frito Lay’s attrition forecasting.
+The KNN model’s higher accuracy (79%) compared to Naive Bayes (73%) indicates a better overall performance in predicting attrition cases correctly.
+
+Given the KNN model’s higher accuracy and superior ability to capture employees at risk of leaving, it was selected as the preferred model for Frito Lay’s attrition forecasting.
 
 Costs of Attrition
 

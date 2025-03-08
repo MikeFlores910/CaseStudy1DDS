@@ -1,12 +1,8 @@
-# CaseStudy1DDS
-Frito Lay Case Study
-Executive Summary: Frito Lay Employee Attrition Analysis
-
-Overall Question of Interest and Setting
+## Executive Summary: Frito Lay Employee Attrition Analysis
 
 DDSAnalytics, a leader in talent management solutions for Fortune 100 companies, was commissioned by Frito Lay to analyze employee attrition. The primary objectives were to identify key factors contributing to employee turnover, develop predictive models to anticipate attrition, and assess the financial implications of these models. Understanding these drivers enables Frito Lay to implement targeted retention strategies, thereby reducing turnover-related costs and maintaining a stable workforce.
 
-Factors Significantly Related to Attrition
+## Factors Significantly Related to Attrition
 
 Our analysis identified three primary factors significantly associated with employee attrition:
 
@@ -18,11 +14,11 @@ MaritalStatus: Marital status appeared to influence attrition, with single emplo
 
 These insights align with existing literature that emphasizes the impact of work-life balance and job satisfaction on employee retention.
 
-Work-Life Balance and Job Satisfaction on Employee Retention
+# Work-Life Balance and Job Satisfaction on Employee Retention
 
 Employee retention is a multifaceted challenge influenced by various personal and professional factors. Two of the most critical determinants—work-life balance and job satisfaction—have been extensively studied in human resource literature, consistently proving to be key drivers of employee turnover.
 
-Work-Life Balance and Its Role in Retention
+# Work-Life Balance and Its Role in Retention
 
 Work-life balance refers to an individual’s ability to effectively manage work responsibilities while maintaining personal and family commitments. When employees experience high levels of work-related stress, extended hours, and frequent travel, they may feel overwhelmed, leading to dissatisfaction and, eventually, higher turnover.
 
@@ -30,7 +26,7 @@ According to the Society for Human Resource Management (SHRM) and various organi
 
 Our study supports this trend, revealing that employees with frequent overtime obligations exhibited higher attrition rates. While overtime may sometimes be necessary due to business demands, persistent overwork without sufficient recovery time can contribute to burnout, disengagement, and eventually, resignation. Organizations that actively promote work-life balance—through flexible scheduling, remote work options, and workload management strategies—tend to retain employees at a significantly higher rate.
 
-Job Satisfaction and Employee Retention
+# Job Satisfaction and Employee Retention
 
 Beyond work-life balance, job satisfaction is another crucial predictor of attrition. Job satisfaction encompasses multiple factors, including compensation, recognition, career growth opportunities, relationships with colleagues and management, and overall alignment with company culture.
 
@@ -38,11 +34,11 @@ Studies show that employees who feel undervalued, unchallenged, or unsupported b
 
 Furthermore, we observed that single employees were more likely to leave compared to their married counterparts. This may be due to a higher level of career mobility among single professionals, who may feel less anchored to a specific job or location. Additionally, single employees might place a stronger emphasis on career progression, seeking new roles that offer greater satisfaction and professional growth.
 
-Model Performance: K-Nearest Neighbors (KNN) vs. Naive Bayes
+## Model Performance: K-Nearest Neighbors (KNN) vs. Naive Bayes
 
 Two predictive models were developed to forecast employee attrition. The following table compares their key performance metrics:
 
-K-Nearest Neighbors (KNN) Model
+# K-Nearest Neighbors (KNN) Model
 
 Accuracy = 79%
 
@@ -50,7 +46,7 @@ Sensitivity = 83%
 
 Specificity = 61%
 
-Naive Bayes (NB) Model
+# Naive Bayes (NB) Model
 
 Accuracy = 73%
 
@@ -66,7 +62,7 @@ The KNN model’s higher accuracy (79%) compared to Naive Bayes (73%) indicates 
 
 Given the KNN model’s higher accuracy and superior ability to capture employees at risk of leaving, it was selected as the preferred model for Frito Lay’s attrition forecasting.
 
-Costs of Attrition
+## Costs of Attrition
 
 Based on our predictive modeling and cost assumptions, attrition costs for Frito Lay are estimated as follows:
 
@@ -76,7 +72,7 @@ Estimated Annual Savings Potential: If predictive modeling helps prevent 100 unn
 
 This cost of $255,000 per cycle underscores the financial impact of misclassified attrition cases, where failing to retain employees results in high replacement costs, while misallocating retention incentives leads to unnecessary expenditures. By leveraging our KNN model to reduce false negatives, Frito Lay can significantly lower attrition-related expenses and improve workforce stability.
 
-Conclusion and Recommendations
+## Conclusion and Recommendations
 
 We appreciate the opportunity to support Frito Lay in this critical analysis. To further enhance employee retention, we recommend:
 

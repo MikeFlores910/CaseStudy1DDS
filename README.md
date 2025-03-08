@@ -1,4 +1,4 @@
-# Executive Summary: Frito Lay Employee Attrition Analysis
+# Executive Summary - Frito Lay Employee Attrition Analysis
 
 DDSAnalytics, a leader in talent management solutions for Fortune 100 companies, was commissioned by Frito Lay to analyze employee attrition. The primary objectives were to identify key factors contributing to employee turnover, develop predictive models to anticipate attrition, and assess the financial implications of these models. Understanding these drivers enables Frito Lay to implement targeted retention strategies, thereby reducing turnover-related costs and maintaining a stable workforce.
 
@@ -34,11 +34,11 @@ Studies show that employees who feel undervalued, unchallenged, or unsupported b
 
 Furthermore, we observed that single employees were more likely to leave compared to their married counterparts. This may be due to a higher level of career mobility among single professionals, who may feel less anchored to a specific job or location. Additionally, single employees might place a stronger emphasis on career progression, seeking new roles that offer greater satisfaction and professional growth.
 
-# Model Performance: K-Nearest Neighbors (KNN) vs. Naive Bayes
+# Model Performance: K-Nearest Neighbors (KNN) vs. Naive Bayes (NB)
 
 Two predictive models were developed to forecast employee attrition. The following table compares their key performance metrics:
 
-## K-Nearest Neighbors (KNN) Model
+## K-Nearest Neighbors Model
 
 Accuracy = 79%
 
@@ -46,7 +46,7 @@ Sensitivity = 83%
 
 Specificity = 61%
 
-## Naive Bayes (NB) Model
+## Naive Bayes Model
 
 Accuracy = 73%
 
